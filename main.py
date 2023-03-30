@@ -12,7 +12,11 @@ A list of even integers.
 pass
 # Skeleton code for sum_of_squares_of_even
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
-"""
+
+    sum = 0
+    for i in range(len(even_int_list)):
+        sum += even_int_list[i] ** 2
+    """
 Computes the sum of the squares of all even numbers in a list of integers.
 Args:
 even_int_list: A list of even integers.
@@ -30,4 +34,4 @@ output = sum_of_squares_of_even(even_int_list)
 print(output)
 # Boilerplate code
 if __name__ == "__main__":
-main()
+()
